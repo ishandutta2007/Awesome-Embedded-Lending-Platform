@@ -19,90 +19,89 @@
       <stop offset="50%" stop-color="#818cf8" />
       <stop offset="100%" stop-color="#c084fc" />
     </linearGradient>
-
-    <!-- Glow Filter -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
   </defs>
 
   <style>
-    .title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 44px; fill: #ffffff; }
-    .subtitle { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 20px; fill: #94a3b8; }
-    .badge-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 14px; fill: #38bdf8; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 38px; fill: #ffffff; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 18px; fill: #94a3b8; }
+    .badge-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 13px; fill: #38bdf8; }
+    .node-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 11px; fill: #ffffff; text-anchor: middle; }
+    .tag-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 14px; fill: #cbd5e1; }
     
-    /* Dynamic Animated Background Pulse & Wave Elements */
+    /* CSS Animations */
     @keyframes pulseGlow {
-      0% { transform: scale(1) translate(0, 0); opacity: 0.4; }
-      50% { transform: scale(1.08) translate(-10px, 15px); opacity: 0.7; }
-      100% { transform: scale(1) translate(0, 0); opacity: 0.4; }
+      0% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 0.6; transform: scale(1.05); }
+      100% { opacity: 0.3; transform: scale(1); }
     }
 
     @keyframes floatDash {
       0% { stroke-dashoffset: 0; }
-      100% { stroke-dashoffset: -100; }
+      100% { stroke-dashoffset: -40; }
     }
 
-    .anim-orb-1 { animation: pulseGlow 8s ease-in-out infinite; transform-origin: 200px 100px; }
-    .anim-orb-2 { animation: pulseGlow 10s ease-in-out infinite alternate; transform-origin: 1000px 250px; }
-    .anim-flow { stroke-dasharray: 12 12; animation: floatDash 3s linear infinite; }
+    .anim-orb-1 { animation: pulseGlow 6s ease-in-out infinite; transform-origin: 150px 80px; }
+    .anim-orb-2 { animation: pulseGlow 8s ease-in-out infinite; transform-origin: 1050px 280px; }
+    .anim-flow { stroke-dasharray: 8 8; animation: floatDash 2s linear infinite; }
   </style>
 
-  <!-- Deep Dynamic Background -->
+  <!-- Background -->
   <rect width="1200" height="350" fill="url(#bgGrad)" rx="16" />
 
-  <!-- Animated Glowing Orbs (Dynamic Background Aspects) -->
-  <circle class="anim-orb-1" cx="150" cy="80" r="180" fill="#0284c7" opacity="0.3" filter="url(#glow)" />
-  <circle class="anim-orb-2" cx="1050" cy="280" r="220" fill="#6366f1" opacity="0.35" filter="url(#glow)" />
+  <!-- Animated Orbs -->
+  <circle class="anim-orb-1" cx="150" cy="80" r="180" fill="#0284c7" opacity="0.4" />
+  <circle class="anim-orb-2" cx="1050" cy="280" r="220" fill="#6366f1" opacity="0.4" />
 
-  <!-- Background Financial Flow Lines (Dynamic) -->
-  <path class="anim-flow" d="M -50 280 Q 300 320 600 220 T 1250 160" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.3" />
-  <path class="anim-flow" d="M -50 220 Q 400 120 800 240 T 1250 100" fill="none" stroke="#818cf8" stroke-width="2.5" opacity="0.4" />
+  <!-- Flow Lines -->
+  <path class="anim-flow" d="M -50 280 Q 300 320 600 220 T 1250 160" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.4" />
+  <path class="anim-flow" d="M -50 220 Q 400 120 800 240 T 1250 100" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.4" />
 
-  <!-- Glassmorphism Container Card -->
-  <rect x="50" y="40" width="1100" height="270" rx="20" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1.5" />
+  <!-- Main Container Card -->
+  <rect x="40" y="35" width="1120" height="280" rx="16" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1.5" />
+  <rect x="40" y="35" width="1120" height="5" rx="2.5" fill="url(#accentGrad)" />
 
-  <!-- Top Decorative Accent Line -->
-  <rect x="50" y="40" width="1100" height="6" rx="3" fill="url(#accentGrad)" />
-
-  <!-- Embedded Lending Decorative Graphic Elements -->
-  <g transform="translate(820, 80)">
-    <rect x="0" y="0" width="220" height="190" rx="14" fill="#0f172a" fill-opacity="0.6" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1" />
+  <!-- Network Graphic (Right Side) -->
+  <g transform="translate(850, 75)">
+    <rect x="0" y="0" width="220" height="200" rx="14" fill="#0f172a" fill-opacity="0.7" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1" />
     
-    <line x1="40" y1="50" x2="110" y2="95" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 4" />
-    <line x1="40" y1="140" x2="110" y2="95" stroke="#818cf8" stroke-width="2" stroke-dasharray="4 4" />
-    <line x1="110" y1="95" x2="180" y2="50" stroke="#c084fc" stroke-width="2" />
-    <line x1="110" y1="95" x2="180" y2="140" stroke="#38bdf8" stroke-width="2" />
+    <line x1="40" y1="50" x2="110" y2="100" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 4" />
+    <line x1="40" y1="150" x2="110" y2="100" stroke="#818cf8" stroke-width="2" stroke-dasharray="4 4" />
+    <line x1="110" y1="100" x2="180" y2="50" stroke="#c084fc" stroke-width="2" />
+    <line x1="110" y1="100" x2="180" y2="150" stroke="#38bdf8" stroke-width="2" />
 
-    <circle cx="40" cy="50" r="16" fill="#0284c7" />
-    <text x="40" y="54" font-family="sans-serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">API</text>
+    <circle cx="40" cy="50" r="18" fill="#0284c7" />
+    <text x="40" y="54" class="node-text">API</text>
 
-    <circle cx="40" cy="140" r="16" fill="#4f46e5" />
-    <text x="40" y="144" font-family="sans-serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">DATA</text>
+    <circle cx="40" cy="150" r="18" fill="#4f46e5" />
+    <text x="40" y="154" class="node-text">DATA</text>
 
-    <circle cx="110" cy="95" r="22" fill="#7c3aed" filter="url(#glow)" />
-    <text x="110" y="99" font-family="sans-serif" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">CREDIT</text>
+    <circle cx="110" cy="100" r="24" fill="#7c3aed" />
+    <text x="110" y="104" class="node-text">CREDIT</text>
 
-    <circle cx="180" cy="50" r="16" fill="#0ea5e9" />
-    <text x="180" y="54" font-family="sans-serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">BNPL</text>
+    <circle cx="180" cy="50" r="18" fill="#0ea5e9" />
+    <text x="180" y="54" class="node-text">BNPL</text>
 
-    <circle cx="180" cy="140" r="16" fill="#10b981" />
-    <text x="180" y="144" font-family="sans-serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">LOAN</text>
+    <circle cx="180" cy="150" r="18" fill="#10b981" />
+    <text x="180" y="154" class="node-text">LOAN</text>
   </g>
 
-  <!-- FOREGROUND TEXT CONTENT -->
-  <g transform="translate(90, 100)">
-    <rect x="0" y="0" width="210" height="32" rx="16" fill="#0369a1" fill-opacity="0.4" stroke="#38bdf8" stroke-width="1" />
-    <text x="15" y="21" class="badge-text">⚡ AWESOME FINTECH LIST</text>
+  <!-- Foreground Text Content -->
+  <g transform="translate(80, 80)">
+    <!-- Pill Badge -->
+    <rect x="0" y="0" width="200" height="30" rx="15" fill="#0369a1" fill-opacity="0.4" stroke="#38bdf8" stroke-width="1" />
+    <text x="14" y="20" class="badge-text">AWESOME FINTECH LIST</text>
 
-    <text x="0" y="80" class="title">Awesome Embedded Lending Platform 💳</text>
-    <text x="0" y="122" class="subtitle">API-First Lending Infrastructure, Automated Underwriting &amp; White-Label Credit</text>
+    <!-- Main Title -->
+    <text x="0" y="70" class="title">Awesome Embedded Lending Platform</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="110" class="subtitle">API-First Lending Infrastructure, Automated Underwriting &amp; White-Label Credit</text>
     
-    <g transform="translate(0, 150)">
-      <text x="0" y="0" font-family="sans-serif" font-size="14" fill="#94a3b8">🚀 Enterprise SaaS</text>
-      <text x="150" y="0" font-family="sans-serif" font-size="14" fill="#94a3b8">💎 Open-Source LMS</text>
-      <text x="330" y="0" font-family="sans-serif" font-size="14" fill="#94a3b8">🔄 Embedded Capital APIs</text>
+    <!-- Meta tags -->
+    <g transform="translate(0, 155)">
+      <text x="0" y="0" class="tag-text">Enterprise SaaS</text>
+      <text x="140" y="0" class="tag-text">• Open-Source LMS</text>
+      <text x="310" y="0" class="tag-text">• Embedded Capital APIs</text>
     </g>
   </g>
 </svg>
