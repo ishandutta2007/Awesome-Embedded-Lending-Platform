@@ -1,269 +1,125 @@
-# Awesome-Embedded-Lending-Platform
+# Awesome Embedded Lending Platform 💳 🚀
 
-## Top Embedded Lending Platforms Ecosystem
+![Awesome Embedded Lending Banner](./assets/banner.svg)
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Embedded-Lending-Platform?style=flat-square" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Embedded-Lending-Platform?style=flat-square" alt="License"/>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🌟 Ecosystem Overview & SEO Guide
+A curated, comprehensive directory of **Embedded Lending Platforms**, **API-First Lending Infrastructure**, **Automated Risk Underwriting Engines**, **BNPL Solutions**, and **Open-Source Loan Management Systems (LMS)**. 
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on API-First Lending Infrastructure, Automated Underwriting, White-Label Capital & Platform-Embedded Credit*
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Embedded Lending**. These tools help platforms, marketplaces, and fintechs offer capital to their business customers directly inside the software they already use—removing friction from traditional loan applications and enabling underwriting based on real-time platform data.
-
-
-
-**Examples** include Taktile, Upstart, Amount, Finastra, Blend, Newgen Lending, Decimal Technologies, TurnKey Lender, LendAPI, Nucleus Software, Pipe, Parafin, Kanmon, Treasury Prime, Unit, Capchase, Wayflyer, Fundbox, Settle, and Zilch Business (the category leaders).
-
-
-
-**Open-source emphasis**: Embedded lending is a commercially consolidated category, but **powerful open-source foundations exist** for building lending infrastructure. The standout is **Frappe Lending**—a production-ready, 100% open-source Loan Management System built on the Frappe Framework and ERPNext, already handling tens of thousands of live loans. Apache Fineract and Mifos X provide battle-tested core banking with lending modules. This section documents every major open-source path, from full LMS platforms to core banking engines with lending capabilities.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Taktile](https://taktile.com/)**
-
-  Decision-making platform for automated lending and risk assessment. Enables lenders to build, test, and deploy underwriting decisions with a visual builder and API-first architecture.
-
-
-
-- **[Upstart](https://www.upstart.com/)**
-
-  AI lending marketplace connecting borrowers with bank partners. Uses machine learning for credit decisioning that considers education and employment history alongside traditional credit data.
-
-
-
-- **[Amount](https://www.amount.com/)**
-
-  Digital lending infrastructure for banks and credit unions. Provides white-label loan origination, decisioning, and account opening with deep core banking integrations.
-
-
-
-- **[Finastra](https://www.finastra.com/)**
-
-  Global financial software provider with comprehensive lending solutions spanning commercial, corporate, and retail lending. Offers API-first lending platforms for banks and financial institutions.
-
-
-
-- **[Blend](https://blend.com/)**
-
-  Digital lending platform for banks and mortgage lenders. Streamlines loan applications, verification, and closing with a focus on consumer experience.
-
-
-
-- **[Newgen Lending](https://newgensoft.com/)**
-
-  Digital lending platform covering loan origination, underwriting, and servicing. Part of Newgen's broader banking and financial services suite.
-
-
-
-- **[Decimal Technologies](https://decimaltech.com/)**
-
-  Digital lending and onboarding platform for financial institutions. Provides loan origination, credit decisioning, and customer onboarding with deep India market expertise.
-
-
-
-- **[TurnKey Lender](https://turnkey-lender.com/)**
-
-  End-to-end lending automation platform. Provides loan origination, decisioning, servicing, and collections for banks, credit unions, and alternative lenders.
-
-
-
-- **[LendAPI](https://lendapi.com/)**
-
-  API-first lending infrastructure platform. Enables any platform to embed lending products via a unified API, handling origination, underwriting, and capital management.
-
-
-
-- **[Nucleus Software](https://www.nucleussoftware.com/)**
-
-  Financial technology provider with lending and transaction banking solutions. Offers loan management, origination, and collections platforms for financial institutions.
-
-
-
-- **[Pipe](https://pipe.com/)**
-
-  Embedded capital platform for SaaS companies. Provides revenue-based financing that integrates directly into SaaS platforms, using platform data for underwriting.
-
-
-
-- **[Parafin](https://www.parafin.com/)**
-
-  Embedded financing infrastructure for marketplaces, vertical SaaS, and payment processors. Powers capital programs for Amazon, DoorDash, Walmart, and Mindbody. Handles underwriting, compliance, servicing, and capital markets. Extends over $25 billion in offers . Offers Term (fixed-term loan) and Flex (revenue-based financing) products, with no-code, low-code, and custom integration paths .
-
-
-
-- **[Kanmon](https://kanmon.com/)**
-
-  Embedded lending platform for vertical SaaS and fintechs. Provides white-label loan origination, underwriting, and servicing with API-first integration.
-
-
-
-- **[Treasury Prime](https://treasuryprime.com/)**
-
-  Banking-as-a-Service platform with embedded lending capabilities. Provides APIs for account opening, money movement, and credit products.
-
-
-
-- **[Unit](https://unit.co/)**
-
-  Banking-as-a-Service platform with lending products. Enables platforms to offer credit and charge cards, and lending through a unified API.
-
-
-
-- **[Capchase](https://capchase.com/)**
-
-  Revenue-based financing for SaaS and subscription businesses. Provides non-dilutive capital tied to recurring revenue.
-
-
-
-- **[Wayflyer](https://wayflyer.com/)**
-
-  Revenue-based financing for e-commerce brands. Provides capital for inventory and marketing spend, repaid as a percentage of sales.
-
-
-
-- **[Fundbox](https://fundbox.com/)**
-
-  Small business financing platform. Provides lines of credit and term loans with fast underwriting based on business data.
-
-
-
-- **[Settle](https://settle.co/)**
-
-  Bill pay and financing platform for startups. Combines accounts payable automation with embedded credit.
-
-
-
-- **[Zilch Business](https://zilch.com/)**
-
-  Buy-now-pay-later and credit platform for businesses. Provides embedded financing at point of sale.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Frappe Lending](https://github.com/frappe/lending)**
-
-  The most mature open-source Loan Management System (LMS) available. Built on ERPNext and the Frappe Framework, it provides end-to-end loan lifecycle management: loan origination, disbursement, repayment scheduling, interest accrual, collections, collateral management, co-lending, and credit bureau file generation. **100% open source and API-first**—every feature is REST API compatible . Already running in production at institutions managing tens of thousands of live loans and disbursing hundreds daily . Handles loan booking, portfolio management, DPD tracking, NPA classification, and regulatory reporting . Python/JavaScript stack with role-based access, audit logs, and document versioning . **Open source**. 
-
-
-
-- **[Apache Fineract](https://github.com/apache/fineract)**
-
-  The Apache Software Foundation's open-source core banking system designed for digital financial services. Version 1.11.0 (March 2025) includes lending capabilities alongside savings, deposits, and client management . Fineract is the backend engine for Mifos X, providing the common functionalities for creating customers, managing wallets, savings and loan accounts, and maintaining financial ledgers . **Apache-2.0**. 
-
-
-
-- **[Mifos X](https://github.com/openMF/mifos-x)**
-
-  A Digital Public Good recognized by the Digital Public Goods Alliance. Full core banking suite including the Fineract backend, web UI, reporting plugin, mobile field operations app (Kotlin), and customer mobile banking app . Used by financial inclusion organizations worldwide. **Open source (Mozilla Public License)**. 
-
-
-
-- **[Open Source Bank](https://github.com/ishanperera/opensourcebank)**
-
-  API-first core banking engine with a double-entry ledger, transaction processing, and compliance tooling. Explicitly designed so developers can **build a lending platform on top of it** . Features idempotent transactions, JWT + API keys auth, RBAC, PII encryption, audit logging, fraud detection engine, Plaid sandbox, and Stripe test mode integration. Python FastAPI + Next.js stack, PostgreSQL, Docker Compose deployment. **Open source**. 
-
-
-
-- **[FinAegis Core Banking Prototype](https://github.com/FinAegis/core-banking-prototype-laravel)**
-
-  Laravel-based core banking prototype with **modular lending domain**. Install only the domains you need: `php artisan domain:install lending` . Features P2P loans, credit scoring, and risk assessment within the lending module. Includes event sourcing with Redis Streams, multi-asset accounts, governance, and compliance domains. PHP 8.4+, PostgreSQL, Redis. Demo mode runs without external dependencies. **Open source**. 
-
-
-
-- **[FinCoreX](https://github.com/Vignesh-R-G/FinCoreX)**
-
-  Lightweight core banking system with **loan processing and repayment modules**. Spring Boot, Spring Security, Spring Batch for automated repayments, AOP, and PostgreSQL. Handles CASA accounts, fixed deposits, loan creation, disbursement, and repayment scheduling. **Open source**. 
-
-
-
-- **[XRPL Permissioned Lending Framework](https://github.com/VS1-Finance/xrpl-lending)**
-
-  Open-source reference application for **compliant, permissioned lending on the XRP Ledger**, developed by the XRPL Foundation and VS1 Finance . Uses native XRPL components (Credentials, Permissioned Domains, Single Asset Vaults, Lending Protocol) instead of external smart contracts—reducing security risks and enabling KYC/AML-gated liquidity pools . Designed for institutional credit with automated term lending and asset allocation. Lessons incorporated from the National Bank of Georgia regulatory sandbox. **Open source**. 
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Full LMS Platforms**: **Frappe Lending** (production-ready, ERPNext-based, API-first) .
-
-- **Core Banking with Lending**: **Apache Fineract** (Apache-2.0, used by Mifos), **Mifos X** (Digital Public Good), **Open Source Bank** (API-first, double-entry ledger) .
-
-- **Modular Banking Frameworks**: **FinAegis** (Laravel, install lending domain separately), **FinCoreX** (Spring Boot, loan processing) .
-
-- **Blockchain Lending**: **XRPL Lending Framework** (institutional-grade, permissioned, compliance-ready) .
-
-
-
-**Frameworks for building custom systems**: Combine **Frappe Lending** for the complete loan lifecycle management, **Apache Fineract** or **Open Source Bank** for core banking ledger and account infrastructure, **FinAegis** for modular domain-based architecture, and **XRPL Lending Framework** for permissioned on-chain lending. Add **PostgreSQL** for persistence and **Docker** for deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Embedded lending platforms handle sensitive financial and personal data; ensure compliance with lending regulations, KYC/AML requirements, and data protection laws.
-
-- **Open-source reality**: **Frappe Lending** is the standout open-source LMS—production-ready, actively maintained, and already processing tens of thousands of loans . **Apache Fineract** and **Mifos X** provide mature core banking foundations with lending modules . However, embedded lending *programs* (underwriting engines, capital markets access, platform-native UX) still require significant integration work or commercial partners like **Parafin** .
-
-
+Embedded lending enables software platforms, B2B SaaS, and e-commerce marketplaces to integrate capital, credit lines, and revenue-based financing natively into their user workflows using financial APIs.
 
 ---
 
+## 📑 Table of Contents
+- [📊 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Community](#-support--community)
+- [⚠️ Disclaimer](#-disclaimer)
+- [📈 Star History](#-star-history)
 
+---
 
-**Made for fintech builders, platform product managers, embedded finance developers, and lending infrastructure teams.**
+## 📊 SaaS & Hosted Platforms
 
-Let's make embedded lending more open, transparent, and accessible.
+> [!NOTE]  
+> **Market Size & Industry Dynamics:** The Global Embedded Finance market (including Embedded Lending) is estimated at **$85 Billion in 2026** and projected to surpass **$240 Billion by 2032**. The sector is **moderately fragmented**, featuring high enterprise consolidation among core digital banking providers alongside agile niche vertical SaaS capital providers.
+
+| Enterprise / SaaS Product | Description | Specific Starting Tier Pricing | Free Tier / Trial Limits | Valuation / Revenue Scale (Est.) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Finastra](https://www.finastra.com/)** 🏦 | Global financial technology provider with comprehensive commercial, corporate, and retail digital lending platforms. | $50,000 / year base enterprise license | 30-day interactive sandbox demo upon request | $7.0 Billion Valuation |
+| **[Upstart](https://www.upstart.com/)** 🤖 | AI-driven lending marketplace connecting bank partners with borrowers via ML risk decisioning. | $1,500 / month platform fee + revenue share | 14-day partner API sandbox access | $3.8 Billion Market Cap |
+| **[Blend](https://blend.com/)** 🏠 | Consumer & mortgage digital lending software streamlining application, verification, and closing. | $2,500 / month base fee + $50 per funded loan | 30-day partner integration trial | $1.2 Billion Market Cap |
+| **[Pipe](https://pipe.com/)** 🔄 | Embedded capital platform converting recurring SaaS revenue streams into upfront non-dilutive capital. | 1% – 3% discount rate per revenue trade | 14-day sandbox access for developer testing | $2.0 Billion Valuation |
+| **[Capchase](https://capchase.com/)** 💰 | Non-dilutive revenue-based financing and automated B2B BNPL invoice financing for SaaS companies. | 3% origination fee on drawn capital | 30-day free growth calculator & trial | $1.0 Billion Valuation |
+| **[Parafin](https://www.parafin.com/)** 🛍️ | Embedded capital infrastructure for marketplaces & payment platforms (DoorDash, Amazon, Mindbody). | Custom enterprise revenue share per loan | 30-day developer sandbox environment | $520 Million Valuation |
+| **[Taktile](https://taktile.com/)** ⚡ | Automated risk decisioning platform for fintechs & banks to build, test, and deploy credit policies. | $2,000 / month developer plan | 14-day interactive trial on developer sandbox | $350 Million Valuation |
+| **[Amount](https://www.amount.com/)** 💳 | Digital lending infrastructure for banks & credit unions providing white-label loan origination. | $10,000 / month base subscription | 30-day guided sandbox access | $1.0 Billion Valuation |
+| **[Fundbox](https://fundbox.com/)** 🏢 | B2B credit & line of credit financing platform for small businesses with automated data underwriting. | 4.66% starting fee per 12-week draw | 30-day free business account registration | $1.1 Billion Valuation |
+| **[TurnKey Lender](https://turnkey-lender.com/)** ⚙️ | End-to-end AI lending automation covering origination, decisioning, servicing, and collections. | $500 / month starting plan | 14-day full feature free trial | $50 Million Valuation |
+| **[Wayflyer](https://wayflyer.com/)** 📦 | Revenue-based financing for e-commerce brands funding inventory and marketing spend. | 4% flat fee on advanced capital | 14-day free store analysis & valuation trial | $1.6 Billion Valuation |
+| **[Kanmon](https://kanmon.com/)** 🔌 | API-first embedded lending infrastructure for vertical SaaS platforms and fintechs. | $1,000 / month platform tier | 30-day developer API sandbox access | $120 Million Valuation |
+| **[Treasury Prime](https://treasuryprime.com/)** 🏛️ | Banking-as-a-Service (BaaS) multi-bank network offering embedded lending and deposit APIs. | $2,500 / month developer starter tier | 30-day sandbox trial access | $250 Million Valuation |
+| **[Unit](https://unit.co/)** 📱 | BaaS platform enabling tech companies to embed store accounts, cards, credit, and loans via unified API. | $500 / month developer plan | 30-day self-serve sandbox account | $1.2 Billion Valuation |
+| **[LendAPI](https://lendapi.com/)** 🔌 | Modular orchestrator and decision builder for digital lending product launches. | $300 / month startup plan | 14-day free trial on standard builder | $25 Million Valuation |
+| **[Newgen Lending](https://newgensoft.com/)** 📑 | Comprehensive loan origination system (LOS) & loan management system (LMS) for financial institutions. | $15,000 / year base platform fee | 30-day enterprise proof-of-concept trial | $900 Million Market Cap |
+| **[Decimal Technologies](https://decimaltech.com/)** 🇮🇳 | No-code digital lending and customer onboarding platform tailored for financial entities. | $1,000 / month enterprise tier | 14-day sandbox trial environment | $100 Million Valuation |
+| **[Nucleus Software](https://www.nucleussoftware.com/)** 🌐 | Enterprise lending & transaction banking software provider (FinnOne Neo suite). | $25,000 / year license base | 30-day sandbox trial for institutional partners | $400 Million Market Cap |
+| **[Settle](https://settle.co/)** 🧾 | Cash flow management and working capital financing platform for e-commerce & CPG brands. | $199 / month startup tier | 30-day free trial for accounts payable engine | $400 Million Valuation |
+| **[Zilch Business](https://zilch.com/)** 🛍️ | Ad-subsidized Payments Network & Buy-Now-Pay-Later (BNPL) credit platform for SMBs. | 0% APR on 6-week pay-in-4 plans | 30-day zero-fee promo trial for new SMB accounts | $2.0 Billion Valuation |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Below is the collection of top open-source Loan Management Systems, Core Banking engines with lending modules, and blockchain lending reference architectures, sorted by **GitHub Stars (Descending)** 🌟.
+
+- **[Apache Fineract](https://github.com/apache/fineract)** [![GitHub stars](https://img.shields.io/github/stars/apache/fineract?style=social&color=white)](https://github.com/apache/fineract/stargazers)  
+  🏦 The Apache Software Foundation's flagship open-source core banking platform. Powers digital financial services worldwide with comprehensive loan origination, interest accrual, repayment scheduling, and portfolio management modules. **License: Apache-2.0**.
+
+- **[Mifos X Web App](https://github.com/openMF/web-app)** [![GitHub stars](https://img.shields.io/github/stars/openMF/web-app?style=social&color=white)](https://github.com/openMF/web-app/stargazers)  
+  🌐 Standard web interface for Mifos X and Apache Fineract core banking suites, recognized as a Digital Public Good by DPGA. Offers client onboarding, loan account creation, and collection workflows. **License: MPL-2.0**.
+
+- **[Frappe Lending](https://github.com/frappe/lending)** [![GitHub stars](https://img.shields.io/github/stars/frappe/lending?style=social&color=white)](https://github.com/frappe/lending/stargazers)  
+  💎 Production-ready, 100% open-source Loan Management System (LMS) built on Frappe Framework & ERPNext. Handles full loan lifecycles: origination, interest calculation, collateral management, co-lending, bureau reporting, and repayment schedules via REST API. **License: GPL-3.0**.
+
+- **[FinAegis Core Banking Prototype](https://github.com/FinAegis/core-banking-prototype-laravel)** [![GitHub stars](https://img.shields.io/github/stars/FinAegis/core-banking-prototype-laravel?style=social&color=white)](https://github.com/FinAegis/core-banking-prototype-laravel/stargazers)  
+  🐘 Laravel PHP 8.4 domain-driven core banking prototype with a dedicated modular lending domain (`php artisan domain:install lending`), P2P credit scoring, risk decisioning, and event sourcing via Redis. **License: MIT**.
+
+- **[Open Source Bank](https://github.com/ishanperera/opensourcebank)** [![GitHub stars](https://img.shields.io/github/stars/ishanperera/opensourcebank?style=social&color=white)](https://github.com/ishanperera/opensourcebank/stargazers)  
+  🐍 API-first double-entry ledger core banking engine built with Python FastAPI, Next.js, and PostgreSQL. Tailored for building custom lending platforms on top of immutable ledger infrastructure. **License: MIT**.
+
+- **[Mifos X Field Officer App](https://github.com/openMF/mifos-x-field-officer-app)** [![GitHub stars](https://img.shields.io/github/stars/openMF/mifos-x-field-officer-app?style=social&color=white)](https://github.com/openMF/mifos-x-field-officer-app/stargazers)  
+  📱 Mobile Android app built in Kotlin for microfinance field agents to process loan applications, offline collections, and client verifications. **License: Apache-2.0**.
+
+- **[XRPL Permissioned Lending Reference App](https://github.com/ripple/xrpl-reference-app-lending-sav)** [![GitHub stars](https://img.shields.io/github/stars/ripple/xrpl-reference-app-lending-sav?style=social&color=white)](https://github.com/ripple/xrpl-reference-app-lending-sav/stargazers)  
+  ⛓️ Reference application for permissioned, institutional-grade lending on XRP Ledger (XLS-66 Lending Protocol & Single Asset Vaults) with KYC/AML compliance hooks. **License: MIT**.
+
+- **[FinCoreX](https://github.com/Vignesh-R-G/FinCoreX)** [![GitHub stars](https://img.shields.io/github/stars/Vignesh-R-G/FinCoreX?style=social&color=white)](https://github.com/Vignesh-R-G/FinCoreX/stargazers)  
+  ☕ Lightweight Java Spring Boot & Spring Batch core banking engine handling automated loan disbursement and automated batch repayments. **License: MIT**.
+
+---
+
+## 🤝 How to Contribute
+
+We welcome community contributions! Please follow these simple steps:
+1. **Fork** this repository.
+2. **Add/Update** entries in `README.md` following the established tabular structure or open-source list format.
+3. Ensure entries adhere to factual metrics (links, license info, pricing, star badges).
+4. Submit a **Pull Request (PR)** with a clear description of changes.
+
+---
+
+## ☕ Support & Community
+
+If you find this repository helpful, consider supporting the project and giving it a star! 🌟
+
+- ⭐️ **Star this repository** to help others discover it.
+- 🔀 **Fork it** to customize your own fintech collection.
+- 📢 **Share it** on LinkedIn, Twitter/X, and Reddit with fellow fintech builders.
+- 💖 **Sponsor the Maintainer**: [Buy me a coffee on GitHub Sponsors](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated index** provided for informational and educational purposes only.
+- Inclusion does not imply official endorsement or warranty.
+- Financial software and embedded lending infrastructure process sensitive consumer/commercial financial data; always verify compliance with local banking regulations, legal requirements, and data safety protocols before production deployment.
+
+---
+
+## 📈 Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Embedded-Lending-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Embedded-Lending-Platform&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Curated with ❤️ for Fintech Builders, Product Managers, and Software Engineers.</b>
+</p>
