@@ -58,30 +58,30 @@ Embedded lending enables software platforms, B2B SaaS, and e-commerce marketplac
 
 ## 💻 Open-Source GitHub Projects
 
-Below is the collection of top open-source Loan Management Systems, Core Banking engines with lending modules, and blockchain lending reference architectures, sorted by **GitHub Stars (Descending)** 🌟.
+Below is the collection of top open-source Loan Management Systems, Core Banking engines with lending modules, and blockchain lending reference architectures, sorted by **GitHub_Stars (Descending)** 🌟.
 
-- **[Apache Fineract](https://github.com/apache/fineract)** [![GitHub stars](https://img.shields.io/github/stars/apache/fineract?style=social&color=white)](https://github.com/apache/fineract/stargazers)  
+- **[Apache Fineract](https://github.com/apache/fineract)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/fineract?style=social&color=white)](https://github.com/apache/fineract/stargazers)  
   🏦 The Apache Software Foundation's flagship open-source core banking platform. Powers digital financial services worldwide with comprehensive loan origination, interest accrual, repayment scheduling, and portfolio management modules. **License: Apache-2.0**.
 
-- **[Mifos X Web App](https://github.com/openMF/web-app)** [![GitHub stars](https://img.shields.io/github/stars/openMF/web-app?style=social&color=white)](https://github.com/openMF/web-app/stargazers)  
+- **[Mifos X Web App](https://github.com/openMF/web-app)** [![GitHub_Stars](https://img.shields.io/github/stars/openMF/web-app?style=social&color=white)](https://github.com/openMF/web-app/stargazers)  
   🌐 Standard web interface for Mifos X and Apache Fineract core banking suites, recognized as a Digital Public Good by DPGA. Offers client onboarding, loan account creation, and collection workflows. **License: MPL-2.0**.
 
-- **[Frappe Lending](https://github.com/frappe/lending)** [![GitHub stars](https://img.shields.io/github/stars/frappe/lending?style=social&color=white)](https://github.com/frappe/lending/stargazers)  
+- **[Frappe Lending](https://github.com/frappe/lending)** [![GitHub_Stars](https://img.shields.io/github/stars/frappe/lending?style=social&color=white)](https://github.com/frappe/lending/stargazers)  
   💎 Production-ready, 100% open-source Loan Management System (LMS) built on Frappe Framework & ERPNext. Handles full loan lifecycles: origination, interest calculation, collateral management, co-lending, bureau reporting, and repayment schedules via REST API. **License: GPL-3.0**.
 
-- **[FinAegis Core Banking Prototype](https://github.com/FinAegis/core-banking-prototype-laravel)** [![GitHub stars](https://img.shields.io/github/stars/FinAegis/core-banking-prototype-laravel?style=social&color=white)](https://github.com/FinAegis/core-banking-prototype-laravel/stargazers)  
+- **[FinAegis Core Banking Prototype](https://github.com/FinAegis/core-banking-prototype-laravel)** [![GitHub_Stars](https://img.shields.io/github/stars/FinAegis/core-banking-prototype-laravel?style=social&color=white)](https://github.com/FinAegis/core-banking-prototype-laravel/stargazers)  
   🐘 Laravel PHP 8.4 domain-driven core banking prototype with a dedicated modular lending domain (`php artisan domain:install lending`), P2P credit scoring, risk decisioning, and event sourcing via Redis. **License: MIT**.
 
-- **[Open Source Bank](https://github.com/ishanperera/opensourcebank)** [![GitHub stars](https://img.shields.io/github/stars/ishanperera/opensourcebank?style=social&color=white)](https://github.com/ishanperera/opensourcebank/stargazers)  
+- **[Open Source Bank](https://github.com/ishanperera/opensourcebank)** [![GitHub_Stars](https://img.shields.io/github/stars/ishanperera/opensourcebank?style=social&color=white)](https://github.com/ishanperera/opensourcebank/stargazers)  
   🐍 API-first double-entry ledger core banking engine built with Python FastAPI, Next.js, and PostgreSQL. Tailored for building custom lending platforms on top of immutable ledger infrastructure. **License: MIT**.
 
-- **[Mifos X Field Officer App](https://github.com/openMF/mifos-x-field-officer-app)** [![GitHub stars](https://img.shields.io/github/stars/openMF/mifos-x-field-officer-app?style=social&color=white)](https://github.com/openMF/mifos-x-field-officer-app/stargazers)  
+- **[Mifos X Field Officer App](https://github.com/openMF/mifos-x-field-officer-app)** [![GitHub_Stars](https://img.shields.io/github/stars/openMF/mifos-x-field-officer-app?style=social&color=white)](https://github.com/openMF/mifos-x-field-officer-app/stargazers)  
   📱 Mobile Android app built in Kotlin for microfinance field agents to process loan applications, offline collections, and client verifications. **License: Apache-2.0**.
 
-- **[XRPL Permissioned Lending Reference App](https://github.com/ripple/xrpl-reference-app-lending-sav)** [![GitHub stars](https://img.shields.io/github/stars/ripple/xrpl-reference-app-lending-sav?style=social&color=white)](https://github.com/ripple/xrpl-reference-app-lending-sav/stargazers)  
+- **[XRPL Permissioned Lending Reference App](https://github.com/ripple/xrpl-reference-app-lending-sav)** [![GitHub_Stars](https://img.shields.io/github/stars/ripple/xrpl-reference-app-lending-sav?style=social&color=white)](https://github.com/ripple/xrpl-reference-app-lending-sav/stargazers)  
   ⛓️ Reference application for permissioned, institutional-grade lending on XRP Ledger (XLS-66 Lending Protocol & Single Asset Vaults) with KYC/AML compliance hooks. **License: MIT**.
 
-- **[FinCoreX](https://github.com/Vignesh-R-G/FinCoreX)** [![GitHub stars](https://img.shields.io/github/stars/Vignesh-R-G/FinCoreX?style=social&color=white)](https://github.com/Vignesh-R-G/FinCoreX/stargazers)  
+- **[FinCoreX](https://github.com/Vignesh-R-G/FinCoreX)** [![GitHub_Stars](https://img.shields.io/github/stars/Vignesh-R-G/FinCoreX?style=social&color=white)](https://github.com/Vignesh-R-G/FinCoreX/stargazers)  
   ☕ Lightweight Java Spring Boot & Spring Batch core banking engine handling automated loan disbursement and automated batch repayments. **License: MIT**.
 
 ---
@@ -91,7 +91,7 @@ Below is the collection of top open-source Loan Management Systems, Core Banking
 We welcome community contributions! Please follow these simple steps:
 1. **Fork** this repository.
 2. **Add/Update** entries in `README.md` following the established tabular structure or open-source list format.
-3. Ensure entries adhere to factual metrics (links, license info, pricing, star badges).
+3. Ensure entries adhere to factual metrics (links, license info, pricing, Stars_Badges).
 4. Submit a **Pull Request (PR)** with a clear description of changes.
 
 ---
